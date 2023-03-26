@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.collections.FXCollections?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      xmlns="http://javafx.com/javafx"
+      fx:controller="dev.crowell.crowellchat.controllers.ConversationsScreenController"
+      stylesheets="@conversations-screen.css">
+
+    <ListView>
+            <FXCollections fx:factory="observableArrayList">
+            </FXCollections>
+    </ListView>
+
+</VBox>

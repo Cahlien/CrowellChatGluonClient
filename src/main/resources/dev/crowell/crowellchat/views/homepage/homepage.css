@@ -1,0 +1,9 @@
+#primary {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: -fx-tertiary-color;
+}
+
+#appbar {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: -fx-tertiary-color;
+}

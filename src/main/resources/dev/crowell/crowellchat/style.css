@@ -1,0 +1,52 @@
+.root {
+
+}
+
+.navigation-drawer {
+    -fx-background-color: -fx-primary-color;
+    -fx-border-width: 1px;
+    -fx-border-color: -fx-secondary-color;
+    -fx-padding: 1px;
+}
+
+.navigation-drawer .scroll-pane {
+    -fx-background-color: -fx-primary-color;
+}
+
+.navigation-drawer .header {
+    -fx-background-color: -fx-secondary-color;
+    -fx-text-fill: -fx-tertiary-color;
+}
+
+.border-pane {
+    -fx-background-color: -fx-primary-color;
+}
+
+.item {
+    -fx-background-color: -fx-primary-color;
+    -fx-fill: -fx-secondary-color;
+}
+
+.item .label {
+    -fx-text-fill: -fx-secondary-color;
+}
+
+.item > .item-content:hover {
+    -fx-background-color: -fx-primary-color-selected;
+}
+
+.navigation-drawer .item > .item-content * {
+    -fx-fill: -fx-secondary-color;
+}
+
+.item:selected > .item-content {
+    -fx-background-color: -fx-primary-color-selected;
+}
+
+.navigation-drawer .item:selected:hover > .item-content {
+    -fx-background-color: -fx-primary-color-selected-hover;
+}
+
+.viewport {
+    -fx-background-color: -fx-primary-color;
+}

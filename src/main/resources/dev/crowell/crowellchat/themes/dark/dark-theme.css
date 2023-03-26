@@ -1,0 +1,17 @@
+.root {
+    -fx-primary-color: rgba(0, 0, 0, 1);
+    -fx-secondary-color: rgba(255, 204, 5, 1);
+    -fx-tertiary-color: rgba(255, 255, 255, 1);
+
+    -fx-primary-color-selected: rgba(49, 49, 49);
+    -fx-secondary-color-selected: rgb(250, 229, 161);
+    -fx-tertiary-color-selected: rgba(255, 255, 255, 0.9);
+
+    -fx-primary-color-selected-hover: rgb(73, 73, 73);
+    -fx-secondary-color-selected-hover: rgb(255, 232, 117);
+    -fx-tertiary-color-selected-hover: rgba(255, 255, 255, 0.9);
+
+    -fx-error-color: rgba(255, 0, 0, 1);
+
+    -primary-swatch-500: -fx-secondary-color;
+}

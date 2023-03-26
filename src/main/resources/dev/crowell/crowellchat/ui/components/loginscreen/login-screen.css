@@ -1,0 +1,48 @@
+.root {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: -fx-primary-color;
+}
+
+.button {
+    -fx-background-color: -fx-secondary-color;
+    -fx-text-fill: -fx-primary-color;
+    -fx-font: 12px "Roboto" 600;
+    -fx-min-width: 120px;
+    -fx-min-height: 25px;
+    -fx-max-height: 25px;
+    -fx-pref-height: 25px;
+    -fx-padding: 0px;
+}
+
+.button:hover {
+    -fx-background-color: -fx-secondary-color-selected;
+}
+
+.button:pressed {
+    -fx-scale-x: 0.9;
+    -fx-scale-y: 0.9;
+}
+
+.text-field {
+    -fx-background-color: -fx-tertiary-color;
+    -fx-text-fill: -fx-primary-color;
+    -fx-max-width: 120px;
+    -fx-pref-height: 20px;
+    -fx-min-height: 20px;
+    -fx-max-height: 20px;
+}
+
+.password-field{
+    -fx-background-color: -fx-tertiary-color;
+    -fx-text-fill: -fx-primary-color;
+    -fx-max-width: 120px;
+    -fx-pref-height: 20px;
+    -fx-min-height: 20px;
+    -fx-max-height: 20px;
+}
+
+#loginErrorLabel {
+    -fx-text-fill: -fx-error-color;
+    -fx-opacity: 0;
+    -fx-font-size: 24px;
+}

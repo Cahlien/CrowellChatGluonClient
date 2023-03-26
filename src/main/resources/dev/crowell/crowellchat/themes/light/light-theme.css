@@ -1,0 +1,11 @@
+.root {
+    -fx-primary-color: rgba(255, 255, 255, 1);
+    -fx-secondary-color: rgba(255, 204, 5, 1);
+    -fx-tertiary-color: rgba(0, 0, 0, 1);
+
+    -fx-primary-color-selected: rgba(255, 255, 255, 0.9);
+    -fx-secondary-color-selected: rgba(250, 229, 161, 1);
+    -fx-tertiary-color-selected: rgba(49, 49, 49, 1);
+
+    -fx-error-color: rgba(255, 0, 0, 1);
+}
