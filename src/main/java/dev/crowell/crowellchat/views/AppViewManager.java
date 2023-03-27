@@ -22,8 +22,8 @@ public class AppViewManager {
 
     public static final AppViewRegistry REGISTRY = new AppViewRegistry();
 
-    public static final AppView HOMEPAGE_VIEW = view("HomePage", HomePagePresenter.class, MaterialDesignIcon.HOME, SHOW_IN_DRAWER, HOME_VIEW, SKIP_VIEW_STACK);
-    public static final AppView SETTINGSPAGE_VIEW = view("SettingsPage", SettingsPagePresenter.class, MaterialDesignIcon.SETTINGS, SHOW_IN_DRAWER);
+    public static final AppView HOMEPAGE_VIEW = view("Home", HomePagePresenter.class, MaterialDesignIcon.HOME, SHOW_IN_DRAWER, HOME_VIEW, SKIP_VIEW_STACK);
+    public static final AppView SETTINGSPAGE_VIEW = view("Settings", SettingsPagePresenter.class, MaterialDesignIcon.SETTINGS, SHOW_IN_DRAWER);
     
     private static AppView view(String title, Class<?> presenterClass, MaterialDesignIcon menuIcon, AppView.Flag... flags ) {
         return REGISTRY.createView(name(presenterClass), title, presenterClass, menuIcon, flags);
