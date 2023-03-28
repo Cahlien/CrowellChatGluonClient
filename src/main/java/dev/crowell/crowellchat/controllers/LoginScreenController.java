@@ -5,6 +5,7 @@ import dev.crowell.crowellchat.services.AuthenticationService;
 import dev.crowell.crowellchat.services.AuthenticationServiceImpl;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
@@ -42,6 +43,9 @@ public class LoginScreenController {
             passwordField.setText("");
             usernameField.requestFocus();
             System.out.println("Success");
+            var stage = (Stage) loginButton.getScene().getWindow();
+            var loader = new FXMLLoader(getClass().getResource("../ui/components/conversationsscreen/conversations-screen.fxml"));
+            stage.setScene(new Scene(loader.load()));
         } else {
             loginErrorLabel.setOpacity(1);
         }
